@@ -1,9 +1,9 @@
-public abstract class  pessoa {
+public abstract class Pessoa {
     public String nome;
     public String cpf;
     public String dataNascimento;
 
-    public pessoa (String nome, String cpf, String dataNacimento){
+    public Pessoa(String nome, String cpf, String dataNacimento){
         this.nome = nome;
         this.cpf= cpf;
         this.dataNascimento = dataNacimento;

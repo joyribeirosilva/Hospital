@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cbc1e09-d184-4173-9ad5-c47425fd2966" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hospital.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fila.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sala.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Atendimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cirurgia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cirurgiao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClinicoGeral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Medico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neuro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sala.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +39,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KQZilwLKSJtnEhsweJzTYAYIDv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,9 +50,24 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "settings.editor.selected.configurable": "preferences.intentionPowerPack"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Hospital" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
