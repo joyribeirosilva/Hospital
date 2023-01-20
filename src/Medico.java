@@ -11,11 +11,8 @@ public class Medico extends Funcionario{
         this.formacao = formacao;
     }
 
-    public final void receberPaciente(Paciente pac){
-        this.paciente = pac;
-    }
 
-    public final void dispensarPaciente(){
+    public final void encerrarComPaciente(){
         this.paciente = null;
     }
 
@@ -33,9 +30,13 @@ public class Medico extends Funcionario{
 
     public String realizarDiagnostico(List<String> sintomas){
         if(sintomas.size() == 0){
-            return "Melhorou";
-        } else  {
-            return "Piorou";
+            return "Recebeu alta";
+        } else  {if (sintomas.size() <= 3){
+            return "Caso moderado";
+        }
+        else {
+            return "Caso grave, cirurgia";
+        }
         }
     }
 }

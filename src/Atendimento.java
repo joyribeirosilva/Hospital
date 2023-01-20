@@ -1,6 +1,7 @@
-
 public class Atendimento extends Sala {
-    public Atendimento(int numero, int senha) {
-        super(numero,senha);
+
+    public Atendimento(int senha, int numero, int dia, int mes, int ano) {
+        super(senha, numero, dia, mes, ano);
     }
+
 }
